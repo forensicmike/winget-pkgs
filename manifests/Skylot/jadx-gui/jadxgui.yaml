@@ -1,0 +1,17 @@
+Id: skylot.jadx-gui
+Version: 1.1.0
+Name: Jadx-Gui
+Publisher: Skylot
+License: Apache License 2.0
+AppMoniker: jadx-gui
+Tags: reverseing, RE, android
+Description: Jadx-gui is an amazing free tool that can decompile Android APKs into Java.
+Homepage: https://github.com/skylot/jadx
+Installers:
+  - Arch: x64
+    Url: https://winget-packages.s3.amazonaws.com/jadx-gui-1.1.0-re_setup.exe
+    Sha256: A7F660B6283DEC1CDD25EB12A2CC3516FBC9286270D926E3B051F97ED3BA2FFE
+    InstallerType: exe
+    Switches: 
+      Silent: "/SILENT"
+      SilentWithProgress: "/SILENT"
